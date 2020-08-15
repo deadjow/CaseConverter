@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="">
+<head>
+  <meta charset="utf-8">
+
+  <title>Case Converter</title>
+  <meta name="description" content="Case Converter Online">
+  <meta name="" content="">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body class="bg-light">
+
+    <div class="container text-center">
+
+        <div class="row">
+            <div class="col">
+                <h1 class="display-3 m-5">Case Converter</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <textarea class="form-control text-center" placeholder="Original Text" id="input-text"  rows="3"></textarea>
+                </div>                
+            </div>
+
+            <div class="col">
+                <div class="form-group">
+                    <textarea class="form-control text-center" placeholder="Converted Text" id="output-text" rows="3"></textarea>
+                </div>
+            </div>
+
+          </div>
+
+        <div class="row">
+            <div class="col mt-5">
+
+                <!-- Group of material radios - option 1 -->
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="radio-uppercase" value="uppercase" name="radios">
+                    <label class="form-check-label" for="radio-uppercase">UPPERCASE</label>
+                </div>
+
+                <!-- Group of material radios - option 2 -->
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="radio-lowercase" value="lowercase" name="radios" checked>
+                    <label class="form-check-label" for="radio-lowercase">lowercase</label>
+                </div>
+
+                <!-- Group of material radios - option 3 -->
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="radio-alternate" value="alternate" name="radios">
+                    <label class="form-check-label" for="radio-alternate">aLtErNaTe</label>
+                </div>
+
+                <!-- Group of material radios - option 4 -->
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="radio-first-word-uppercase" value="fword" name="radios">
+                    <label class="form-check-label" for="first-word-uppercase">First letter of each word to uppercase</label>
+                </div>
+
+                <!-- Group of material radios - option 5 -->
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="radio-first-phrase-uppercase" value="fphrase"  name="radios">
+                    <label class="form-check-label" for="radio-first-phrase-uppercase">First letter of each phrase to uppercase</label>
+                </div>
+
+                <!-- Group of material radios - option 6 -->
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="radio-invert" value="invert" name="radios">
+                    <label class="form-check-label" for="radio-invert">Invert</label>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
